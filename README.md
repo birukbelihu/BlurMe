@@ -11,14 +11,13 @@
 
 <h2>BlurMe</h2>
 
-<p>BlurMe Is A Simple Face Blurring Project From Live Camera Using Computer Vision</p>
+<p>BlurMe Is A Simple Face Blurring Project From Live Camera Using Computer Vision & Deep Learning</p>
 
 <p>
 
  <h2>Running</h2>
 
 To Get Started With BlurMe On Your Local Machine Follow This Simple Steps One By One To Get Up & Running.
-
 Make Sure You Have <b><a href="https://git-scm.com/" target="_blank">Git</a></b> & <b><a href="https://python.org" target="_blank">Python</a></b> Installed On Your Machine.
 
 ```
