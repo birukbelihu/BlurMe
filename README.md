@@ -9,7 +9,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/BirukBelihu/BlurMe)
 ![GitHub license](https://img.shields.io/github/license/BirukBelihu/BlurMe)
 
-<h2>Time Server</h2>
+<h2>BlurMe</h2>
 
 <p>BlurMe Is A Simple Face Blurring Project From Live Camera Using Computer Vision</p>
 
