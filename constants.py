@@ -1,8 +1,11 @@
-def prototxt_file() -> str:
+def get_app_name() -> str:
+    return "Blur Me"
+
+def get_prototxt_file() -> str:
     return "models/deploy.prototxt"
 
 
-def caffe_model() -> str:
+def get_caffe_model() -> str:
     return "models/face_detector.caffemodel"
 
 

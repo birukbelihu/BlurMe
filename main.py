@@ -9,9 +9,9 @@ from constants import *
 previous_frame_time = 0
 fps_history = deque(maxlen=10)
 
-net = cv2.dnn.readNetFromCaffe(prototxt_file(), caffe_model())
+net = cv2.dnn.readNetFromCaffe(get_prototxt_file(), get_caffe_model())
 
-video_capture = cv2.VideoCapture(0)
+video_capture = cv2.VideoCapture(1)
 
 while video_capture.isOpened():
     is_successful, frame = video_capture.read()
@@ -48,11 +48,11 @@ while video_capture.isOpened():
             # If You Want To Draw A Bounding Box Around The Blurred Face You Can Uncomment This Line
             # cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
 
-    cv2.imshow("Blur Me", frame)
+    cv2.imshow(get_app_name(), frame)
 
     key = cv2.waitKey(1) & 0xFF
     if key == 27 or chr(key) in exit_keys():
-        print("Exiting Blur Me...")
+        print(f"Exiting {get_app_name()}...")
         break
 
 video_capture.release()
