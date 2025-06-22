@@ -5,7 +5,7 @@
 
 # BlurMe
 
-BlurMe Is A Simple Face Blurring App In A Live Camera Using Computer Vision & Deep Learning
+A simple face anonymizer using Computer Vision & Deep Learning in Python.
 
 # Running
 
